@@ -1,0 +1,19 @@
+
+# Configuracion local y credenciales
+config/database.php
+.env
+.env.*
+
+# Archivos temporales
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Dependencias
+/vendor/
+/node_modules/
+
+# Archivos con credenciales que revisaremos antes de publicar
+readme.txt
+sql/03_DCL_permisos.sql
